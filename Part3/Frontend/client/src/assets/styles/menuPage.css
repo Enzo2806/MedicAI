@@ -1,0 +1,58 @@
+.patient-menu {
+  background: inherit;
+  /* This makes sure the background is the same as the one set globally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  gap: 20px;
+}
+
+.menu-option {
+  background-color: white;
+  color: #00008b;
+  /* dark blue */
+  width: 80%;
+  max-width: 350px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.menu-option:hover {
+  transform: translateY(-3px);
+}
+
+.quit {
+  color: red;
+}
+
+.menu-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-form {
+  max-width: 400px;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.info-form label {
+  font-weight: bold;
+}
+
+.info-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
