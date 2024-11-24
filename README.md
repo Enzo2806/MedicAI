@@ -1,7 +1,7 @@
 # MedicAI: Patient-Doctor AI Matching Intelligent System and Database
 
 ### Introduction
-MedicAI is an innovative patient-doctor matching system that leverages artificial intelligence to streamline the process of connecting patients with the appropriate healthcare providers based on their medical needs. Built with a Python backend using Flask, a React frontend, and an IBM DB2 SQL database, MedicAI offers robust and intelligent functionalities. It includes an AI chatbot named Medo, which assists patients by making preliminary diagnoses and scheduling appointments with doctors.
+MedicAI is an innovative patient-doctor matching system that leverages artificial intelligence to streamline the process of connecting patients with the appropriate healthcare providers based on their medical needs. Built with a Python backend using Flask, a React frontend, and an IBM DB2 SQL database, MedicAI offers robust and intelligent functionalities. It includes an AI chatbot named Medo, which assists patients by making preliminary diagnoses and scheduling appointments with doctors. The slides present [here](https://github.com/Enzo2806/MedicAI/blob/main/Part3/Demo%20slides.pptx) show the UML Class Diagram of the application.
 
 ### Features
 - **AI-Powered Matching:** Uses a Hugging Face fine-tuned transformer model on health diagnosis to analyze patient inquiries and match them with doctors based on specialty and availability.
